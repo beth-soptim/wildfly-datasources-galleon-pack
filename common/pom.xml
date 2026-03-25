@@ -20,7 +20,7 @@
     <parent>
         <groupId>org.wildfly</groupId>
         <artifactId>wildfly-datasources-galleon-pack-parent</artifactId>
-        <version>11.3.1.Final-SNAPSHOT</version>
+        <version>11.3.1.Final-soptimawswrapper-1-SNAPSHOT</version>
     </parent>
     <artifactId>wildfly-datasources-galleon-pack-common</artifactId>
     <packaging>pom</packaging>
@@ -59,6 +59,10 @@
         <dependency>
             <groupId>com.oracle.database.jdbc</groupId>
             <artifactId>ojdbc17</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>software.amazon.jdbc</groupId>
+            <artifactId>aws-advanced-jdbc-wrapper</artifactId>
         </dependency>
         <dependency>
             <groupId>com.ibm.db2</groupId>
